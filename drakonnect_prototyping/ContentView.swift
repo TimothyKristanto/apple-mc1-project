@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var hasDone: Bool = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        VStack{
+            if(hasDone){
+                AuthenticationPage()
+            }else{
+                SplashScreen()
+            }
         }
-        .padding()
+        .onAppear{
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2){
+                withAnimation{
+                    hasDone = true
+                }
+            }
+        }
     }
 }
 

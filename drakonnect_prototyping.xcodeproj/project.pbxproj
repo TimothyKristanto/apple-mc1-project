@@ -7,18 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF04322F29E3C4C60083338A /* GenresActorsListCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF04322E29E3C4C60083338A /* GenresActorsListCardView.swift */; };
+		BF306FAF29E414F6005A569C /* CommunityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF306FAE29E414F6005A569C /* CommunityDetailView.swift */; };
+		BF306FB129E43FEE005A569C /* SingleDiscussionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF306FB029E43FEE005A569C /* SingleDiscussionCardView.swift */; };
+		BF306FB329E4E628005A569C /* CommunityDiscussionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF306FB229E4E628005A569C /* CommunityDiscussionsView.swift */; };
+		BF306FB529E5068E005A569C /* CommunityRatingModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF306FB429E5068E005A569C /* CommunityRatingModal.swift */; };
+		BF306FB729E5220E005A569C /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF306FB629E5220E005A569C /* Rating.swift */; };
+		BF306FB929E529FE005A569C /* DiscussionsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF306FB829E529FE005A569C /* DiscussionsDetailView.swift */; };
+		BF306FBB29E52CE0005A569C /* CreateDiscussionModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF306FBA29E52CE0005A569C /* CreateDiscussionModal.swift */; };
+		BF306FBD29E557E8005A569C /* SingleCommentCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF306FBC29E557E8005A569C /* SingleCommentCardView.swift */; };
 		BF4B194929DAAE2E00F3AD8F /* drakonnect_prototypingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4B194829DAAE2E00F3AD8F /* drakonnect_prototypingApp.swift */; };
 		BF4B194B29DAAE2E00F3AD8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4B194A29DAAE2E00F3AD8F /* ContentView.swift */; };
 		BF4B194D29DAAE2F00F3AD8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4B194C29DAAE2F00F3AD8F /* Assets.xcassets */; };
 		BF4B195029DAAE2F00F3AD8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4B194F29DAAE2F00F3AD8F /* Preview Assets.xcassets */; };
+		BFB6302529DD066A002EDB2D /* SelectGenresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB6302429DD066A002EDB2D /* SelectGenresView.swift */; };
+		BFB6302729DD0998002EDB2D /* AuthenticationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB6302629DD0998002EDB2D /* AuthenticationPage.swift */; };
+		BFB6302929DD1945002EDB2D /* SelectActorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB6302829DD1945002EDB2D /* SelectActorsView.swift */; };
+		BFB6303629DD51DA002EDB2D /* SingleGenreActorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB6303529DD51DA002EDB2D /* SingleGenreActorRow.swift */; };
+		BFB6303829DD9C4A002EDB2D /* SelectionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB6303729DD9C4A002EDB2D /* SelectionPage.swift */; };
+		BFB6303C29DDBE0A002EDB2D /* CommunityRecommendationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB6303B29DDBE0A002EDB2D /* CommunityRecommendationView.swift */; };
+		BFB6303E29DE67B9002EDB2D /* JoinedCommunitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB6303D29DE67B9002EDB2D /* JoinedCommunitiesView.swift */; };
+		BFB6304229DE681E002EDB2D /* CommunitiesSelectionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB6304129DE681E002EDB2D /* CommunitiesSelectionPage.swift */; };
+		BFB6304429DE68A2002EDB2D /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB6304329DE68A2002EDB2D /* UserProfileView.swift */; };
+		BFB6304829DE699B002EDB2D /* GenreActorCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB6304729DE699B002EDB2D /* GenreActorCardView.swift */; };
+		BFB6304B29DE796C002EDB2D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB6304A29DE796C002EDB2D /* Constants.swift */; };
+		BFB6304F29DE7D83002EDB2D /* HomeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB6304E29DE7D83002EDB2D /* HomeTab.swift */; };
+		BFC9443629DBB3B800BCE1D8 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC9443529DBB3B800BCE1D8 /* RegisterView.swift */; };
+		BFC9443829DBC98900BCE1D8 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC9443729DBC98900BCE1D8 /* SplashScreen.swift */; };
+		BFC9443F29DBD84900BCE1D8 /* drakonnect-prototyping-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFC9443E29DBD84900BCE1D8 /* drakonnect-prototyping-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF04322E29E3C4C60083338A /* GenresActorsListCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenresActorsListCardView.swift; sourceTree = "<group>"; };
+		BF306FAE29E414F6005A569C /* CommunityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityDetailView.swift; sourceTree = "<group>"; };
+		BF306FB029E43FEE005A569C /* SingleDiscussionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleDiscussionCardView.swift; sourceTree = "<group>"; };
+		BF306FB229E4E628005A569C /* CommunityDiscussionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityDiscussionsView.swift; sourceTree = "<group>"; };
+		BF306FB429E5068E005A569C /* CommunityRatingModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityRatingModal.swift; sourceTree = "<group>"; };
+		BF306FB629E5220E005A569C /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		BF306FB829E529FE005A569C /* DiscussionsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscussionsDetailView.swift; sourceTree = "<group>"; };
+		BF306FBA29E52CE0005A569C /* CreateDiscussionModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDiscussionModal.swift; sourceTree = "<group>"; };
+		BF306FBC29E557E8005A569C /* SingleCommentCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCommentCardView.swift; sourceTree = "<group>"; };
 		BF4B194529DAAE2E00F3AD8F /* drakonnect_prototyping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drakonnect_prototyping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4B194829DAAE2E00F3AD8F /* drakonnect_prototypingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drakonnect_prototypingApp.swift; sourceTree = "<group>"; };
 		BF4B194A29DAAE2E00F3AD8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF4B194C29DAAE2F00F3AD8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF4B194F29DAAE2F00F3AD8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFB6302429DD066A002EDB2D /* SelectGenresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectGenresView.swift; sourceTree = "<group>"; };
+		BFB6302629DD0998002EDB2D /* AuthenticationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationPage.swift; sourceTree = "<group>"; };
+		BFB6302829DD1945002EDB2D /* SelectActorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectActorsView.swift; sourceTree = "<group>"; };
+		BFB6303529DD51DA002EDB2D /* SingleGenreActorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleGenreActorRow.swift; sourceTree = "<group>"; };
+		BFB6303729DD9C4A002EDB2D /* SelectionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionPage.swift; sourceTree = "<group>"; };
+		BFB6303B29DDBE0A002EDB2D /* CommunityRecommendationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityRecommendationView.swift; sourceTree = "<group>"; };
+		BFB6303D29DE67B9002EDB2D /* JoinedCommunitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinedCommunitiesView.swift; sourceTree = "<group>"; };
+		BFB6304129DE681E002EDB2D /* CommunitiesSelectionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunitiesSelectionPage.swift; sourceTree = "<group>"; };
+		BFB6304329DE68A2002EDB2D /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		BFB6304729DE699B002EDB2D /* GenreActorCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreActorCardView.swift; sourceTree = "<group>"; };
+		BFB6304A29DE796C002EDB2D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BFB6304E29DE7D83002EDB2D /* HomeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTab.swift; sourceTree = "<group>"; };
+		BFC9443529DBB3B800BCE1D8 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		BFC9443729DBC98900BCE1D8 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		BFC9443E29DBD84900BCE1D8 /* drakonnect-prototyping-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "drakonnect-prototyping-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +80,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF04322D29E396500083338A /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				BFB6304329DE68A2002EDB2D /* UserProfileView.swift */,
+				BFB6303729DD9C4A002EDB2D /* SelectionPage.swift */,
+				BFB6302429DD066A002EDB2D /* SelectGenresView.swift */,
+				BFB6302829DD1945002EDB2D /* SelectActorsView.swift */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
 		BF4B193C29DAAE2E00F3AD8F = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +110,14 @@
 		BF4B194729DAAE2E00F3AD8F /* drakonnect_prototyping */ = {
 			isa = PBXGroup;
 			children = (
+				BFB6304929DE7949002EDB2D /* Constants */,
+				BFB6303429DD5180002EDB2D /* Components */,
 				BF4B194829DAAE2E00F3AD8F /* drakonnect_prototypingApp.swift */,
 				BF4B194A29DAAE2E00F3AD8F /* ContentView.swift */,
+				BFC9443429DBB39100BCE1D8 /* Views */,
 				BF4B194C29DAAE2F00F3AD8F /* Assets.xcassets */,
 				BF4B194E29DAAE2F00F3AD8F /* Preview Content */,
+				BFC9443E29DBD84900BCE1D8 /* drakonnect-prototyping-Info.plist */,
 			);
 			path = drakonnect_prototyping;
 			sourceTree = "<group>";
@@ -65,6 +128,63 @@
 				BF4B194F29DAAE2F00F3AD8F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFB6303429DD5180002EDB2D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BFB6303529DD51DA002EDB2D /* SingleGenreActorRow.swift */,
+				BFB6304729DE699B002EDB2D /* GenreActorCardView.swift */,
+				BF04322E29E3C4C60083338A /* GenresActorsListCardView.swift */,
+				BF306FB029E43FEE005A569C /* SingleDiscussionCardView.swift */,
+				BF306FB429E5068E005A569C /* CommunityRatingModal.swift */,
+				BF306FB629E5220E005A569C /* Rating.swift */,
+				BF306FBA29E52CE0005A569C /* CreateDiscussionModal.swift */,
+				BF306FBC29E557E8005A569C /* SingleCommentCardView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BFB6304529DE68D2002EDB2D /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				BFB6303B29DDBE0A002EDB2D /* CommunityRecommendationView.swift */,
+				BFB6303D29DE67B9002EDB2D /* JoinedCommunitiesView.swift */,
+				BFB6304129DE681E002EDB2D /* CommunitiesSelectionPage.swift */,
+				BFB6304E29DE7D83002EDB2D /* HomeTab.swift */,
+				BF306FAE29E414F6005A569C /* CommunityDetailView.swift */,
+				BF306FB229E4E628005A569C /* CommunityDiscussionsView.swift */,
+				BF306FB829E529FE005A569C /* DiscussionsDetailView.swift */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		BFB6304629DE6904002EDB2D /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				BFC9443529DBB3B800BCE1D8 /* RegisterView.swift */,
+				BFB6302629DD0998002EDB2D /* AuthenticationPage.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		BFB6304929DE7949002EDB2D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				BFB6304A29DE796C002EDB2D /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		BFC9443429DBB39100BCE1D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF04322D29E396500083338A /* UserProfile */,
+				BFB6304629DE6904002EDB2D /* Authentication */,
+				BFB6304529DE68D2002EDB2D /* Community */,
+				BFC9443729DBC98900BCE1D8 /* SplashScreen.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +247,7 @@
 			files = (
 				BF4B195029DAAE2F00F3AD8F /* Preview Assets.xcassets in Resources */,
 				BF4B194D29DAAE2F00F3AD8F /* Assets.xcassets in Resources */,
+				BFC9443F29DBD84900BCE1D8 /* drakonnect-prototyping-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +258,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB6303829DD9C4A002EDB2D /* SelectionPage.swift in Sources */,
+				BFB6302929DD1945002EDB2D /* SelectActorsView.swift in Sources */,
+				BFC9443829DBC98900BCE1D8 /* SplashScreen.swift in Sources */,
+				BFB6303C29DDBE0A002EDB2D /* CommunityRecommendationView.swift in Sources */,
+				BFB6303629DD51DA002EDB2D /* SingleGenreActorRow.swift in Sources */,
+				BFB6304B29DE796C002EDB2D /* Constants.swift in Sources */,
+				BFB6304429DE68A2002EDB2D /* UserProfileView.swift in Sources */,
+				BFB6304229DE681E002EDB2D /* CommunitiesSelectionPage.swift in Sources */,
+				BFB6304F29DE7D83002EDB2D /* HomeTab.swift in Sources */,
+				BFC9443629DBB3B800BCE1D8 /* RegisterView.swift in Sources */,
+				BF306FB529E5068E005A569C /* CommunityRatingModal.swift in Sources */,
+				BF306FBB29E52CE0005A569C /* CreateDiscussionModal.swift in Sources */,
+				BF306FB129E43FEE005A569C /* SingleDiscussionCardView.swift in Sources */,
+				BFB6302729DD0998002EDB2D /* AuthenticationPage.swift in Sources */,
 				BF4B194B29DAAE2E00F3AD8F /* ContentView.swift in Sources */,
+				BFB6304829DE699B002EDB2D /* GenreActorCardView.swift in Sources */,
 				BF4B194929DAAE2E00F3AD8F /* drakonnect_prototypingApp.swift in Sources */,
+				BF306FB729E5220E005A569C /* Rating.swift in Sources */,
+				BFB6302529DD066A002EDB2D /* SelectGenresView.swift in Sources */,
+				BF306FB329E4E628005A569C /* CommunityDiscussionsView.swift in Sources */,
+				BF306FAF29E414F6005A569C /* CommunityDetailView.swift in Sources */,
+				BF306FBD29E557E8005A569C /* SingleCommentCardView.swift in Sources */,
+				BF04322F29E3C4C60083338A /* GenresActorsListCardView.swift in Sources */,
+				BFB6303E29DE67B9002EDB2D /* JoinedCommunitiesView.swift in Sources */,
+				BF306FB929E529FE005A569C /* DiscussionsDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,11 +413,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"drakonnect_prototyping/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "drakonnect-prototyping-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,11 +442,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"drakonnect_prototyping/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "drakonnect-prototyping-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
